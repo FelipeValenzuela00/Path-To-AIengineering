@@ -1,4 +1,4 @@
-# Fase 4: RAG y evaluación (semanas 7-9)
+# Fase 4: RAG y evaluación (semanas 6-8)
 
 **Objetivo:** construir recuperación sobre documentos propios y medir su calidad.
 

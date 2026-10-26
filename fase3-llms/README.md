@@ -1,4 +1,4 @@
-# Fase 3: LLMs aplicados (semanas 5-6)
+# Fase 3: LLMs aplicados (semanas 4-5)
 
 **Objetivo:** usar la API de Claude con salida estructurada, herramientas y control de costos.
 

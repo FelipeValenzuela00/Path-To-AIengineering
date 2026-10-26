@@ -1,4 +1,4 @@
-# Fase 5: Agentes y producción (semanas 10-12)
+# Fase 5: Agentes y producción (semanas 9-11)
 
 **Objetivo:** llevar un agente a producción con observabilidad y costos controlados.
 

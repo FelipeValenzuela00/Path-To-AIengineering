@@ -1,4 +1,4 @@
-# Fase 2: Datos y APIs (semanas 3-4)
+# Fase 2: Datos y APIs (semana 3)
 
 **Objetivo:** consumir y exponer datos con Python de forma robusta.
 
@@ -6,7 +6,7 @@
 `pandas`, `httpx`, JSON, SQLAlchemy, FastAPI, validación con `pydantic`, Docker.
 
 ## Proyecto 2
-API que consume datos reales y los expone, dockerizada y con tests.
+API pequeña, dockerizada y con tests. Es la base del asistente de la fase 3.
 
 ## Terminado cuando
 - [ ] `docker compose up` levanta todo
