@@ -1,5 +1,5 @@
 # Path-To-AIengineering
-En este repositorio expondre(de manera vergonzosa) mi camino para dirigirme hacia un desarrollador enfocado en inteligencia artificial. Ya realice algunos proyectos con apis de AI, en otros idiomas, pero la meta es volverme capaz de crear sistemas confiables con inteligencia artificial y python
+En este repositorio expondré (de manera vergonzosa) mi camino para dirigirme hacia un desarrollador enfocado en inteligencia artificial. Ya realicé algunos proyectos con apis de AI, en otros idiomas, pero la meta es volverme capaz de crear sistemas confiables con inteligencia artificial y python
 
 ## El programa
 
@@ -15,7 +15,7 @@ Programa de 12 semanas (~20 h/semana) para pasar de "uso APIs de IA" a "construy
 ## Avance
 | Fase | Proyecto | Estado |
 |---|---|---|
-| 1. Python profesional | CLI con tests y CI | pendiente |
+| 1. Python profesional | CLI con tests y CI | en curso |
 | 2. APIs | API FastAPI con Docker | pendiente |
 | 3. LLMs aplicados | Asistente con tool use | pendiente |
 | 4. RAG y evaluación | RAG con reporte de métricas | pendiente |
