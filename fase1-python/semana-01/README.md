@@ -3,8 +3,8 @@
 Ya sabes programar, así que esto no explica qué es un bucle: muestra lo que Python hace distinto. Si todavía no viste la sintaxis básica, lee antes el tutorial oficial, secciones 3 a 5 y 8 (https://docs.python.org/3/tutorial/), unas 2-3 h. Cada tema tiene un ejercicio en `ejercicios.py` con su test en `test_ejercicios.py`. Todos fallan al principio; tu trabajo es ponerlos en verde uno por uno.
 
 ## Cómo trabajar
-```powershell
-cd fase1-python\semana-01
+```bash
+cd fase1-python/semana-01
 uv run --with pytest --with pydantic pytest -x    # se detiene en el primer fallo
 uv run --with pytest --with pydantic pytest -k generador   # solo un tema
 ```

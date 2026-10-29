@@ -1,4 +1,33 @@
-﻿.venv/
+# Entornos virtuales
+.venv/
+venv/
+
+# Python
 __pycache__/
-.env
 *.pyc
+*.egg-info/
+dist/
+build/
+
+# Caches de herramientas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secretos: nunca subir claves (ANTHROPIC_API_KEY, etc.)
+.env
+.env.*
+!.env.example
+
+# Claude Code (worktrees y ajustes locales)
+.claude/
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos locales
+*.sqlite
+*.db
