@@ -10,7 +10,6 @@ Programa de 12 semanas (~20 h/semana) para pasar de "uso APIs de IA" a "construy
 - [`SETUP.md`](SETUP.md): instalación de herramientas.
 - `notas/`: una nota breve por semana.
 - `fase1-python/` … `fase5-agentes-prod/`: proyectos.
-- `cv/`: CV actualizado y checklist de enlaces.
 
 ## Avance
 | Fase | Proyecto | Estado |

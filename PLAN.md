@@ -43,7 +43,7 @@
 
 ## En paralelo: búsqueda de trabajo
 - [ ] Semana 2: perfil de GitHub con README y LinkedIn con el titular apuntando a AI Engineering.
-- [ ] Semana 3: CV reescrito (ver `cv/CHECKLIST.md`). Los proyectos se agregan a medida que se terminan.
-- [ ] Desde semana 4: postular a 5-10 ofertas por semana (junior/semi-senior backend Python, AI/ML engineer, LLM engineer). Registrar en `cv/postulaciones.md`.
+- [ ] Semana 3: CV reescrito (checklist privado, fuera del repo). Los proyectos se agregan a medida que se terminan.
+- [ ] Desde semana 4: postular a 5-10 ofertas por semana (junior/semi-senior backend Python, AI/ML engineer, LLM engineer). Llevar el registro en un archivo privado, fuera del repo.
 - [ ] Desde semana 6: preparación de entrevistas: 3 ejercicios de código por semana en Python (nivel fácil-medio) y diseño de sistemas con LLMs (RAG, costos, latencia, evals).
 - [ ] Publicar AutoLog y la plataforma financiera (o versiones sanitizadas) si los acuerdos lo permiten.

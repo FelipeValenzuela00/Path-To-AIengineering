@@ -31,3 +31,6 @@ Thumbs.db
 # Datos locales
 *.sqlite
 *.db
+
+# CV y postulaciones (datos personales, no se publican)
+cv/
