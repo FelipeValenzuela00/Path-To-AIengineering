@@ -1,4 +1,7 @@
-# Programa: Python + AI Engineering
+# Path-To-AIengineering
+En este repositorio expondre(de manera vergonzosa) mi camino para dirigirme hacia un desarrollador enfocado en inteligencia artificial. Ya realice algunos proyectos con apis de AI, en otros idiomas, pero la meta es volverme capaz de crear sistemas confiables con inteligencia artificial y python
+
+## El programa
 
 Programa de 12 semanas (~20 h/semana) para pasar de "uso APIs de IA" a "construyo sistemas de IA con Python, evaluados y desplegados", y conseguir trabajo en el sector con un portafolio público y un CV actualizado.
 
