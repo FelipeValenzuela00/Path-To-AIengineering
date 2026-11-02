@@ -2,6 +2,7 @@
 
 import shutil
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 
 CATEGORIAS: dict[str, str] = {
@@ -32,13 +33,11 @@ def categoria_de(archivo: Path) -> str:
     return CATEGORIAS.get(archivo.suffix.lower(), OTROS)
 
 
-def planificar(carpeta: Path) -> list[Movimiento]:
-    """Calcula los movimientos necesarios sin tocar el disco."""
-    return [
-        Movimiento(f, carpeta / categoria_de(f) / f.name)
-        for f in sorted(carpeta.iterdir())
-        if f.is_file()
-    ]
+def mes_de(archivo: Path) -> str:
+    """Devuelve el mes de modificación del archivo como 'AAAA-MM' (hora local)."""
+    dateNmb = archivo.stat().st_mtime
+    date = datetime.fromtimestamp(dateNmb)
+    return date.strftime("%Y-%m")
 
 
 def _destino_libre(destino: Path) -> Path:
@@ -62,3 +61,21 @@ def ejecutar(movimientos: list[Movimiento]) -> list[Movimiento]:
         shutil.move(m.origen, destino)
         aplicados.append(Movimiento(m.origen, destino))
     return aplicados
+
+
+def planificar(carpeta: Path, por_fecha: bool = False) -> list[Movimiento]:
+    """Calcula los movimientos sin tocar el disco.
+
+    Agrupa por tipo de archivo; con `por_fecha=True`, por mes de modificación.
+    """
+
+    if por_fecha:
+        carpeta_final = mes_de
+    else:
+        carpeta_final = categoria_de
+
+    return [
+        Movimiento(f, carpeta / carpeta_final(f) / f.name)
+        for f in sorted(carpeta.iterdir())
+        if f.is_file()
+    ]
