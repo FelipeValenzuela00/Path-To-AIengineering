@@ -7,21 +7,22 @@
 **Ritmo:** ~20 h/semana (60 % construir, 25 % estudiar, 15 % búsqueda de trabajo). Si tienes menos horas, estira cada fase; no saltes la búsqueda. Cierra cada semana con una nota de 15 min en `notas/semana-NN.md`.
 
 ## Fase 1: Python (semanas 1-2)
-- [ ] Semana 1: sintaxis y modelo de datos (listas, dicts, sets, slicing, f-strings, excepciones, `pathlib`), luego `fase1-python/semana-01`: comprensiones, generadores, context managers, decoradores, `dataclasses`, `pydantic`. Tipado en todo.
-- [ ] Semana 2: `async/await`, `pytest` (fixtures, parametrize), `ruff`, estructura de paquete con `uv`, GitHub Actions.
-- [ ] **Proyecto 1:** el CLI `organizador`. Ya existe una versión base: léela hasta entender cada línea y agrégale tú una función nueva con su test (por ejemplo `--por-fecha` o `--deshacer`). Si no lo escribiste tú, no lo puedes defender en una entrevista.
+- [x] Semana 1: sintaxis y modelo de datos (listas, dicts, sets, slicing, f-strings, excepciones, `pathlib`), luego `fase1-python/semana-01`: comprensiones, generadores, context managers, decoradores, `dataclasses`, `pydantic`. Tipado en todo.
+- [x] Semana 2: `async/await`, `pytest` (fixtures, parametrize), `ruff`, estructura de paquete con `uv`, GitHub Actions.
+- [x] **Proyecto 1:** el CLI `organizador` (hecho: `--por-fecha`; `--deshacer` queda opcional, guía en `notas/deshacer-diseno.md`). Ya existe una versión base: léela hasta entender cada línea y agrégale tú una función nueva con su test (por ejemplo `--por-fecha` o `--deshacer`). Si no lo escribiste tú, no lo puedes defender en una entrevista.
 - Terminado cuando: tests en verde, `ruff` limpio, CI pasando en GitHub, README publicado.
 
-## Fase 2: APIs (semana 3)
-- [ ] FastAPI, `httpx`, validación con `pydantic`, Docker.
-- [ ] **Proyecto 2:** API pequeña con un par de endpoints, tests y `Dockerfile`. Es la base sobre la que se monta el asistente de la fase 3, no un proyecto aparte.
-- Terminado cuando: `docker compose up` la levanta y hay tests de endpoints.
-
-## Fase 3: LLMs aplicados (semanas 4-5)
-- [ ] Semana 4: API de Claude (mensajes, system prompts, streaming, salida estructurada con `pydantic`).
-- [ ] Semana 5: tool use, prompt caching, reintentos y manejo de errores, costo por llamada.
-- [ ] **Proyecto 3:** asistente con herramientas expuesto por la API de la fase 2.
+## Fase 2: LLMs aplicados (semanas 3-4)
+Adelantada (11-nov) porque se aplica directo al asistente financiero, que migra de NIM a Claude.
+- [ ] Semana 3: API de Claude (mensajes, system prompts, streaming, salida estructurada con `pydantic`).
+- [ ] Semana 4: tool use, prompt caching, reintentos y manejo de errores, costo por llamada.
+- [ ] **Proyecto 2:** asistente de consola con herramientas.
 - Terminado cuando: tests con cliente simulado (mock) y costo por conversación documentado.
+
+## Fase 3: APIs (semana 5)
+- [ ] FastAPI, `httpx`, validación con `pydantic`, Docker.
+- [ ] **Proyecto 3:** API que expone el asistente de la fase 2, con tests y `Dockerfile`.
+- Terminado cuando: `docker compose up` la levanta y hay tests de endpoints.
 
 ## Fase 4: RAG y evaluación (semanas 6-8) — el proyecto estrella
 - [ ] Semana 6: embeddings, `pgvector`, chunking.

@@ -14,9 +14,9 @@ Programa de 12 semanas (~20 h/semana) para pasar de "uso APIs de IA" a "construy
 ## Avance
 | Fase | Proyecto | Estado |
 |---|---|---|
-| 1. Python profesional | CLI con tests y CI | en curso |
-| 2. APIs | API FastAPI con Docker | pendiente |
-| 3. LLMs aplicados | Asistente con tool use | pendiente |
+| 1. Python profesional | CLI con tests y CI | hecho |
+| 2. LLMs aplicados | Asistente con tool use | pendiente |
+| 3. APIs | API FastAPI con Docker | pendiente |
 | 4. RAG y evaluación | RAG con reporte de métricas | pendiente |
 | 5. Agentes y producción | Agente desplegado | pendiente |
 | En paralelo | CV, LinkedIn y postulaciones | pendiente |
